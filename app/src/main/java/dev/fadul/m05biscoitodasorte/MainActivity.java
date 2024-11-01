@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     // Método para iniciar o biscoito mostrando a frase padrão e a imagem padrão
     public void iniciarBiscoito(View view){
         TextView texto = findViewById(R.id.txtView);
+        //texto.setText(R.string.msg_inicio);
         texto.setText(R.string.msg_inicio);
 
         ImageView imagem = findViewById(R.id.imgView);
